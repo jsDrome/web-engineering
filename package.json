@@ -1,0 +1,19 @@
+{
+  "name": "web-engineering",
+  "version": "1.0.0",
+  "description": "1. Github Project Creation 2. Readme.md 3. Nodejs Project initiation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsDrome/web-engineering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsDrome/web-engineering/issues"
+  },
+  "homepage": "https://github.com/jsDrome/web-engineering#readme"
+}
