@@ -5,3 +5,5 @@
 3. Nodejs Project initiation.
 4. Editorconfig, Eslint and Stylelint
 5. React
+6. Babel
+7. Webpack
