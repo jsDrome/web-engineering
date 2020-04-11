@@ -8,3 +8,5 @@
 6. Babel
 7. Webpack
 8. Webpack plugins
+  8.1 Html Webpack Plugin
+  8.2 Webpack Bundle Analyzer

@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   entry: {
@@ -24,6 +25,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'My website',
       template: path.resolve(__dirname, '../templates/client.html'),
+    }),
+    new BundleAnalyzerPlugin({
+      openAnalyzer: false,
+      analyzerMode: 'static',
+      reportFilename: path.resolve(__dirname, `../../../_dist/bundle.html`),
     }),
   ],
 };
