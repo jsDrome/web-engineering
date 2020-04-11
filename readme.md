@@ -7,3 +7,4 @@
 5. React
 6. Babel
 7. Webpack
+8. Webpack plugins
