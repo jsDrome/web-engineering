@@ -32,4 +32,9 @@ module.exports = {
       reportFilename: path.resolve(__dirname, `../../../_dist/bundle.html`),
     }),
   ],
+  devServer: {
+    contentBase: path.join(__dirname, '../../../_dist'),
+    compress: true,
+    port: 9000,
+  },
 };

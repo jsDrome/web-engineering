@@ -9,6 +9,7 @@
     "stylelint": "stylelint src/**/*.css",
     "build:client": "webpack --config=build/client/web/index.js",
     "build:client:dev": "npm run build:client -- --env=dev",
+    "build:client:devserver": "webpack-dev-server --config=build/client/web/index.js --env=dev",
     "build:client:prod": "npm run build:client --  --env=prod"
   },
   "repository": {
@@ -41,6 +42,7 @@
     "webpack": "^4.42.1",
     "webpack-bundle-analyzer": "^3.6.1",
     "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.2.2"
   },
   "husky": {
