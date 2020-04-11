@@ -4,7 +4,12 @@
   "description": "1. Github Project Creation 2. Readme.md 3. Nodejs Project initiation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "stylelint": "stylelint src/**/*.css",
+    "build:client": "webpack --config=build/client/web/index.js",
+    "build:client:dev": "npm run build:client -- --env=dev",
+    "build:client:prod": "npm run build:client --  --env=prod"
   },
   "repository": {
     "type": "git",

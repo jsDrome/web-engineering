@@ -10,3 +10,4 @@
 8. Webpack plugins
   8.1 Html Webpack Plugin
   8.2 Webpack Bundle Analyzer
+9. npm scripts
