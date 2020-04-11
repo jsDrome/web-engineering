@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+const rules = require('../../rules');
 
 module.exports = {
   entry: {
@@ -11,15 +12,7 @@ module.exports = {
     filename: 'app.bundle.js',
   },
   module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
-      },
-    ],
+    rules,
   },
   plugins: [
     new HtmlWebpackPlugin({

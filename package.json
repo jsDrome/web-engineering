@@ -10,7 +10,10 @@
     "build:client": "webpack --config=build/client/web/index.js",
     "build:client:dev": "npm run build:client -- --env=dev",
     "build:client:devserver": "webpack-dev-server --config=build/client/web/index.js --env=dev",
-    "build:client:prod": "npm run build:client --  --env=prod"
+    "build:client:prod": "npm run build:client --  --env=prod",
+    "build:server": "webpack --config=build/server/index.js",
+    "build:server:dev": "npm run build:server -- --env=dev",
+    "build:server:prod": "npm run build:server -- --env=prod"
   },
   "repository": {
     "type": "git",
@@ -43,7 +46,8 @@
     "webpack-bundle-analyzer": "^3.6.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
   },
   "husky": {
     "hooks": {
