@@ -5,6 +5,8 @@ const app = new express();
 // eslint-disable-next-line no-magic-numbers
 const PORT = process.env.PORT || 5001;
 
+app.use(express.static('_dist'));
+
 app.get('/', (req, res) => {
   res.send('Hello from Server!');
 });
