@@ -9,8 +9,11 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "function": "myExpressApp"
       }
     ]
+  },
+  "functions": {
+    "source": "_dist"
   }
 }
