@@ -1,16 +1,17 @@
 # Topics
 
 1. Github Project Creation
-2. Readme.md
-3. Nodejs Project initiation.
-4. Editorconfig, Eslint and Stylelint
+2. Nodejs Project initiation.
+3. Tooling: Editorconfig, Eslint and Stylelint
+4. Commit Linting
 5. React
 6. Babel
-7. Webpack
-8. Webpack plugins
-  8.1 Html Webpack Plugin
-  8.2 Webpack Bundle Analyzer
-9. npm scripts
-10. Webpack Dev Server
-11. Express Server
-12. Express Middlewares
+7. Webpack for Client
+8. Webpack plugins - Html Webpack Plugin
+9. Webpack plugins - Webpack Bundle Analyzer
+10. Npm scripts
+11. Webpack Dev Server
+12. Express JS
+13. Webpack for Server
+14. Express Middlewares
+15.
