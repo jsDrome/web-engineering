@@ -14,4 +14,4 @@
 12. Express JS
 13. Webpack for Server
 14. Express Middlewares
-15.
+15. Firebase Hosting
