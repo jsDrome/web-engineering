@@ -14,7 +14,9 @@
     "build:server": "webpack --config=build/server/index.js",
     "build:server:dev": "npm run build:server -- --env=dev",
     "build:server:prod": "npm run build:server -- --env=prod",
-    "build:server:firebase": "npm run build:server -- --env=firebase"
+    "build:server:firebase": "npm run build:server -- --env=firebase",
+    "build:docker": "docker-compose -f infra/docker/docker-compose.yml up --build",
+    "start": "node _dist"
   },
   "repository": {
     "type": "git",
