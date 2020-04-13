@@ -16,6 +16,7 @@
     "build:server:prod": "npm run build:server -- --env=prod",
     "build:server:firebase": "npm run build:server -- --env=firebase",
     "build:docker": "docker-compose -f infra/docker/docker-compose.yml up --build",
+    "release:docker": "docker-compose -f infra/docker/docker-compose.yml push",
     "start": "node _dist"
   },
   "repository": {

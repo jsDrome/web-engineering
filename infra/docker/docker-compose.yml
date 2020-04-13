@@ -5,6 +5,8 @@ services:
       context: ../..
       dockerfile: infra/docker/Dockerfile
 
+    image: jsdrome/web-engineering
+
     ports:
       - 5001:1234
 

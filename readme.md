@@ -17,3 +17,4 @@
 15. Firebase Hosting
 16. Firebase Functions
 17. Docker
+18. Pushing image to Dockerhub
